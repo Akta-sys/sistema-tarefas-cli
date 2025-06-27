@@ -10,7 +10,7 @@ Sistema bem simples para o gerenciamento de tarefas via linha de comando (CLI), 
 - Armazenamento em JSON local
 - Estrutura modular em Python
 
-## 🚀 Como executar
+## Como executar
 
 ```bash
 python main.py
