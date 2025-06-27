@@ -12,7 +12,7 @@ def listar_tarefas():
 def adicionar_tarefa():
     titulo = input("Título: ")
     descricao = input("Descrição: ")
-    prioridade = input("Piroridade (baixa/media/alta): ")
+    prioridade = input("Prioridade (baixa/media/alta): ")
     nova = Tarefa(titulo, descricao, prioridade)
     tarefas = carregar_tarefas()
     tarefas.append(nova.to_dict())
